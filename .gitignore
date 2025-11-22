@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# virtualenv
+.venv/
+venv/
+env/
+
+# editor/OS
+.DS_Store
+*.swp
+
+# dati e output (personalizza se usi altre cartelle)
+data/
+results/
+logs/
