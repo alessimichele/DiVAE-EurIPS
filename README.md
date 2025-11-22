@@ -6,7 +6,7 @@ This repository contains the implementation of DiVAE and the scripts to reproduc
 Tested with Python 3.9+ and PyTorch 2.0.
 
 ```bash
-git clone https://github.com/<your-username>/DiVAE-EurIPS.git
+git clone https://github.com/alessimichele/DiVAE-EurIPS.git
 cd DiVAE-EurIPS
 
 # Create and activate a virtual environment (recommended)
