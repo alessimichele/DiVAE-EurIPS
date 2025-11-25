@@ -110,7 +110,7 @@ def main():
                 )
 
     # DataModule
-    dm = VAEDataModule(dataset='mnist', data_path=os.path.expanduser("~/scratch/datasets/"), batch_size=128,)
+    dm = VAEDataModule(dataset='mnist', data_path=os.path.expanduser("~/datasets/"), batch_size=128,)
 
     # Callbacks: build default set, add OracleDensityOverride when requested, Jacobs only for flow
     callbacks = [ImageLoggingCallback(), EndOfTrainingEvalCallback(), MetricsPlotCallback(), UMAPPlotCallback(), 
