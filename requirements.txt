@@ -1,10 +1,9 @@
-dadac==0.2.0
+git+https://github.com/lykos98/dadaC.git#egg=dadac
 matplotlib==3.6.2
 numpy==1.24.2
 pandas==1.5.2
 pytorch_lightning==1.9.5
 PyYAML==6.0
-PyYAML==6.0.3
 scikit_learn==1.2.0
 scipy==1.16.3
 torch==2.0.0
