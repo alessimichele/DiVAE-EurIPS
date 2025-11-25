@@ -62,8 +62,8 @@ bash scripts/replicate_exps.sh
 This script outputs the complete set of experiment commands.  
 Each produced line corresponds to one configuration and internally calls:
 
-- `exp_mnist_run.py`
-- `exp_synthetic_run.py`
+- `exp_mnist_runner.py`
+- `exp_synthetic_runner.py`
 
 You may execute the entire sweep or run experiments individually.
 
