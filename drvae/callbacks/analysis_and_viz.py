@@ -686,11 +686,11 @@ class DensityHistogramCallback(pl.Callback):
 
     @torch.no_grad()
     def _get_den(self, trainer: pl.Trainer, pl_module: Model):
-        from ..modules.aligners import DirectAligner, ProportionalAligner, FlowAligner
+        from ..modules.aligners import DirectAligner, FlowAligner
         if not getattr(pl_module, "density_eval", False):
             logging.warning("[DensityHistogramCallback] density_eval=False; skipping.")
             return
-        if not isinstance(pl_module.module.aligner, (ProportionalAligner, DirectAligner, FlowAligner)):
+        if not isinstance(pl_module.module.aligner, (DirectAligner, FlowAligner)):
             logging.warning(f"[DensityHistogramCallback] aligner {pl_module.module.aligner} is not supported; skipping.")
             return
         
