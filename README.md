@@ -74,11 +74,14 @@ You may execute the entire sweep or run experiments individually.
 If you use this code or build upon DiVAE, please cite:
 
 ```bibtex
-@inproceedings{alessi2025divae,
-  title     = {Density-Informed VAE (DiVAE): Reliable Log-Prior Probability via Density Alignment Regularization},
-  author    = {Alessi, Michele and Ansuini, Alessio and Rodriguez, Alex},
-  booktitle = {Proceedings of the PriGM Workshop at EurIPS 2025},
-  year      = {2025}
+@misc{alessi2025densityinformedvaedivaereliable,
+      title={Density-Informed VAE (DiVAE): Reliable Log-Prior Probability via Density Alignment Regularization}, 
+      author={Michele Alessi and Alessio Ansuini and Alex Rodriguez},
+      year={2025},
+      eprint={2512.03928},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2512.03928}, 
 }
 ```
 
