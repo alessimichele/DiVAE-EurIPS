@@ -1,8 +1,9 @@
 # Density-Informed VAE (DiVAE)
-**Reliable Log-Prior Probability via Density Alignment Regularization**  
+[**Reliable Log-Prior Probability via Density Alignment Regularization**](https://arxiv.org/abs/2512.03928)
+
 _Code release for the PriGM Workshop @ EurIPS 2025_
 
-This repository contains the official implementation of **DiVAE**, a Variational Autoencoder with **Density Alignment Regularization** that improves the reliability of the log-prior term.  
+This repository contains the official implementation of **DiVAE**, a Variational Autoencoder with **Density Alignment Regularization** that improves the reliability of the log-prior term (paper: https://arxiv.org/abs/2512.03928)
 It includes all code necessary to reproduce the experiments on **synthetic datasets** and **MNIST**, as presented in the paper.
 
 ---
